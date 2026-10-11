@@ -7,7 +7,7 @@ prompt injection (including in retrieved content), filters output and keeps PII 
 
 - Architecture, data flow, requirement matrix, design tensions: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
 - MCP contract (13 Tools, 4 Resources, 2 Prompts): [`MCP_CONTRACTS.md`](MCP_CONTRACTS.md)
-- 20-minute demo and debrief script: [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md)
+
 - Executed verification record: [`docs/SUBMISSION_EVIDENCE.md`](docs/SUBMISSION_EVIDENCE.md)
 
 ## Setup (Python 3.11+)
@@ -113,8 +113,6 @@ stops the insurance server mid-request, audits all logs and writes
 ### Using an MCP host instead of the orchestrator
 
 Any MCP client can attach to the servers' Streamable HTTP endpoints, e.g. `http://127.0.0.1:8101/mcp`.
-For Claude Desktop, the servers also speak stdio: copy the entries from
-[`docs/claude_desktop_config.example.json`](docs/claude_desktop_config.example.json) (adjust paths).
 
 ## Repository layout
 
