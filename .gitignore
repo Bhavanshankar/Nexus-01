@@ -1,0 +1,125 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs
+# =========================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# =========================
+# OS Files
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# =========================
+# AI / ML
+# =========================
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.bin
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Vector DBs
+chroma/
+chromadb/
+faiss_index/
+
+# =========================
+# Database
+# =========================
+
+*.sqlite3
+*.db
+
+# =========================
+# Node / React
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build outputs
+.next/
+out/
+coverage/
+
+# =========================
+# Temporary Files
+# =========================
+
+temp/
+tmp/
+*.tmp
+
+# =========================
+# Secrets
+# =========================
+
+secrets.json
+credentials.json
+config.local.json
+/Nexus-01/

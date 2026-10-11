@@ -1,0 +1,24 @@
+# Nexus - pinned direct dependencies (Python 3.11+; verified on 3.13.7).
+# Install: python -m pip install -r requirements.txt
+
+# MCP servers and clients (FastMCP 3 bundles the official mcp SDK; mcp is imported directly for McpError)
+fastmcp==3.4.8
+mcp==1.28.1
+
+# Agent roles (production model backend) - CrewAI pins compatible openai/pydantic versions
+crewai==1.15.26
+
+# Contracts and validation
+pydantic==2.12.5
+
+# Retrieval: vector index, query embeddings, lexical search
+chromadb==1.5.9
+openai==2.54.0
+rank-bm25==0.2.2
+
+# Configuration and TLS through the operating-system certificate store
+python-dotenv==1.2.4
+truststore==0.10.4
+
+# Test suite (pytest tests/)
+pytest==9.1.1
